@@ -7,14 +7,15 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Document(collection = "user")
+@AllArgsConstructor //makes constructor of below variables
+@NoArgsConstructor  //for null values
+@Document(collection =  "student" )
 public class StudentModel {
+
     @Id
     private String id;
-
     private String name;
-    private String age;
+    private int age;
     private String email;
+
 }
