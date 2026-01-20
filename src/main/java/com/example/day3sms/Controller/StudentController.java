@@ -2,7 +2,7 @@ package com.example.day3sms.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+//hnji
 @RestController
 public class StudentController {
     @GetMapping("/")
